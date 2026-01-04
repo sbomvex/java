@@ -1,1 +1,2423 @@
-{"spdxVersion":"SPDX-2.3","dataLicense":"CC0-1.0","SPDXID":"SPDXRef-DOCUMENT","name":"com.github.sbomvex/java","documentNamespace":"https://spdx.org/spdxdocs/protobom/24d7b5ed-42ef-4e67-8c96-115b26ff5de4","comment":"Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.","creationInfo":{"creators":["Tool: protobom-v0.0.0-20251216165153-1f3f3060931e+dirty","Tool: GitHub.com-Dependency-Graph"],"created":"2026-01-04T20:01:51Z"},"packages":[{"name":"org.springframework:spring-core","SPDXID":"SPDXRef-maven-org.springframework-spring-core-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework/spring-core"}]},{"name":"org.springframework.boot:spring-boot","SPDXID":"SPDXRef-maven-org.springframework.boot-spring-boot-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework.boot/spring-boot"}]},{"name":"org.springframework.boot:spring-boot-test","SPDXID":"SPDXRef-maven-org.springframework.boot-spring-boot-test-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework.boot/spring-boot-test"}]},{"name":"org.springframework.boot:spring-boot-autoconfigure","SPDXID":"SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework.boot/spring-boot-autoconfigure"}]},{"name":"org.apache.maven.plugins:maven-enforcer-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-3.6.2-75c946","versionInfo":"3.6.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-enforcer-plugin@3.6.2"}]},{"name":"com.google.code.findbugs:jsr305","SPDXID":"SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2-75c946","versionInfo":"3.0.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-3-Clause","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.code.findbugs/jsr305@3.0.2"}]},{"name":"org.codehaus.mojo:build-helper-maven-plugin","SPDXID":"SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-3.6.1-75c946","versionInfo":"3.6.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.codehaus.mojo/build-helper-maven-plugin@3.6.1"}]},{"name":"org.apache.commons:commons-lang3","SPDXID":"SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-75c946","versionInfo":"3.20.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2001-2017 The Apache Software Foundation","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.commons/commons-lang3@3.20.0"}]},{"name":"uk.org.webcompere:system-stubs-jupiter","SPDXID":"SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-2.1.8-75c946","versionInfo":"2.1.8","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/uk.org.webcompere/system-stubs-jupiter@2.1.8"}]},{"name":"org.apache.felix:maven-bundle-plugin","SPDXID":"SPDXRef-maven-org.apache.felix-maven-bundle-plugin-6.0.0-75c946","versionInfo":"6.0.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.felix/maven-bundle-plugin@6.0.0"}]},{"name":"org.apache.maven.plugins:maven-assembly-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-assembly-plugin-3.8.0-75c946","versionInfo":"3.8.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.8.0"}]},{"name":"com.squareup.okhttp3:logging-interceptor","SPDXID":"SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-5.3.2-75c946","versionInfo":"5.3.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.squareup.okhttp3/logging-interceptor@5.3.2"}]},{"name":"com.google.auth:google-auth-library-oauth2-http","SPDXID":"SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-1.41.0-75c946","versionInfo":"1.41.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.auth/google-auth-library-oauth2-http@1.41.0"}]},{"name":"org.mockito:mockito-junit-jupiter","SPDXID":"SPDXRef-maven-org.mockito-mockito-junit-jupiter-5.21.0-75c946","versionInfo":"5.21.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.mockito/mockito-junit-jupiter@5.21.0"}]},{"name":"org.awaitility:awaitility","SPDXID":"SPDXRef-maven-org.awaitility-awaitility-4.3.0-75c946","versionInfo":"4.3.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2015 the original author or authors","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.awaitility/awaitility@4.3.0"}]},{"name":"org.springframework:spring-test","SPDXID":"SPDXRef-maven-org.springframework-spring-test-6.2.12-75c946","versionInfo":"6.2.12","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND LicenseRef-scancode-other-copyleft","copyrightText":"Copyright (c) 1999-2009, OW2 Consortium \u003chttps://www.ow2.org/\u003e, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2025 Pivotal, Inc., Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework/spring-test@6.2.12"}]},{"name":"org.apache.commons:commons-collections4","SPDXID":"SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-75c946","versionInfo":"4.5.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2001-2025 The Apache Software Foundation","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.commons/commons-collections4@4.5.0"}]},{"name":"org.wiremock:wiremock","SPDXID":"SPDXRef-maven-org.wiremock-wiremock-3.13.2-75c946","versionInfo":"3.13.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.wiremock/wiremock@3.13.2"}]},{"name":"com.squareup.okhttp3:okhttp","SPDXID":"SPDXRef-maven-com.squareup.okhttp3-okhttp-5.3.2-75c946","versionInfo":"5.3.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.squareup.okhttp3/okhttp@5.3.2"}]},{"name":"org.jacoco:jacoco-maven-plugin","SPDXID":"SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.14-75c946","versionInfo":"0.8.14","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.jacoco/jacoco-maven-plugin@0.8.14"}]},{"name":"org.apache.maven.plugins:maven-jar-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.5.0-75c946","versionInfo":"3.5.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-jar-plugin@3.5.0"}]},{"name":"com.github.ben-manes.caffeine:caffeine","SPDXID":"SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2.9.3-75c946","versionInfo":"2.9.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3"}]},{"name":"com.diffplug.spotless:spotless-maven-plugin","SPDXID":"SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-1.17.0-75c946","versionInfo":"1.17.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.diffplug.spotless/spotless-maven-plugin@1.17.0"}]},{"name":"org.apache.maven.plugins:maven-surefire-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.5.4-75c946","versionInfo":"3.5.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@3.5.4"}]},{"name":"org.apache.maven.plugins:maven-enforcer-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-2.2.0-75c946","versionInfo":"2.2.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-enforcer-plugin@2.2.0"}]},{"name":"org.apache.maven.plugins:maven-javadoc-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-3.12.0-75c946","versionInfo":"3.12.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-public-domain AND MIT","copyrightText":"Copyright 2004-2025 The Apache Software Foundation, Copyright 2005, a http://www.mycompany.com MyCompany, Inc. a Note:If the project","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin@3.12.0"}]},{"name":"com.google.code.gson:gson","SPDXID":"SPDXRef-maven-com.google.code.gson-gson-2.13.2-75c946","versionInfo":"2.13.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2008 Google LLC","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.code.gson/gson@2.13.2"}]},{"name":"io.swagger:swagger-annotations","SPDXID":"SPDXRef-maven-io.swagger-swagger-annotations-1.6.16-75c946","versionInfo":"1.6.16","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.swagger/swagger-annotations@1.6.16"}]},{"name":"com.fasterxml.jackson.core:jackson-databind","SPDXID":"SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-2.20.1-75c946","versionInfo":"2.20.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1"}]},{"name":"org.assertj:assertj-core","SPDXID":"SPDXRef-maven-org.assertj-assertj-core-3.27.6-75c946","versionInfo":"3.27.6","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.assertj/assertj-core@3.27.6"}]},{"name":"com.diffplug.spotless:spotless-maven-plugin","SPDXID":"SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-3.1.0-75c946","versionInfo":"3.1.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.diffplug.spotless/spotless-maven-plugin@3.1.0"}]},{"name":"org.apache.maven.plugins:maven-release-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-release-plugin"}]},{"name":"io.prometheus:simpleclient_httpserver","SPDXID":"SPDXRef-maven-io.prometheus-simpleclienthttpserver-0.16.0-75c946","versionInfo":"0.16.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.prometheus/simpleclient_httpserver@0.16.0"}]},{"name":"com.bucket4j:bucket4j-core","SPDXID":"SPDXRef-maven-com.bucket4j-bucket4j-core-8.10.1-75c946","versionInfo":"8.10.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.bucket4j/bucket4j-core@8.10.1"}]},{"name":"org.apache.maven.plugins:maven-compiler-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.14.1-75c946","versionInfo":"3.14.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.14.1"}]},{"name":"org.springframework:spring-context","SPDXID":"SPDXRef-maven-org.springframework-spring-context-6.2.12-75c946","versionInfo":"6.2.12","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND LicenseRef-scancode-other-copyleft","copyrightText":"Copyright (c) 1999-2009, OW2 Consortium \u003chttps://www.ow2.org/\u003e, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2025 Pivotal, Inc., Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework/spring-context@6.2.12"}]},{"name":"io.gsonfire:gson-fire","SPDXID":"SPDXRef-maven-io.gsonfire-gson-fire-1.9.0-75c946","versionInfo":"1.9.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.gsonfire/gson-fire@1.9.0"}]},{"name":"jakarta.annotation:jakarta.annotation-api","SPDXID":"SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-3.0.0-75c946","versionInfo":"3.0.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0","copyrightText":"Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2012, 2024 Oracle and/or its affiliates, Copyright (c) 2012, 2024 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2024 Eclipse Foundation, copyrighted by the Free Software Foundation","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/jakarta.annotation/jakarta.annotation-api@3.0.0"}]},{"name":"org.springframework:spring-core","SPDXID":"SPDXRef-maven-org.springframework-spring-core-6.2.12-75c946","versionInfo":"6.2.12","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND LicenseRef-scancode-other-copyleft","copyrightText":"Copyright (c) 1999-2009, OW2 Consortium \u003chttps://www.ow2.org/\u003e, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2025 Pivotal, Inc., Copyright 2002-2020 the original author or authors, Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework/spring-core@6.2.12"}]},{"name":"commons-cli:commons-cli","SPDXID":"SPDXRef-maven-commons-cli-commons-cli-1.11.0-75c946","versionInfo":"1.11.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2002-2025 The Apache Software Foundation","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/commons-cli/commons-cli@1.11.0"}]},{"name":"org.springframework.boot:spring-boot-autoconfigure","SPDXID":"SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-4.0.1-75c946","versionInfo":"4.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework.boot/spring-boot-autoconfigure@4.0.1"}]},{"name":"org.springframework.boot:spring-boot-test","SPDXID":"SPDXRef-maven-org.springframework.boot-spring-boot-test-4.0.1-75c946","versionInfo":"4.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright (c) 2012-2025 VMware, Inc.","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework.boot/spring-boot-test@4.0.1"}]},{"name":"org.springframework.boot:spring-boot","SPDXID":"SPDXRef-maven-org.springframework.boot-spring-boot-4.0.1-75c946","versionInfo":"4.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework.boot/spring-boot@4.0.1"}]},{"name":"com.flipkart.zjsonpatch:zjsonpatch","SPDXID":"SPDXRef-maven-com.flipkart.zjsonpatch-zjsonpatch-0.4.16-75c946","versionInfo":"0.4.16","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.flipkart.zjsonpatch/zjsonpatch@0.4.16"}]},{"name":"org.apache.maven.plugins:maven-release-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-3.3.1-75c946","versionInfo":"3.3.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-release-plugin@3.3.1"}]},{"name":"com.google.protobuf:protobuf-java","SPDXID":"SPDXRef-maven-com.google.protobuf-protobuf-java-4.33.2-75c946","versionInfo":"4.33.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.protobuf/protobuf-java@4.33.2"}]},{"name":"software.amazon.awssdk:sts","SPDXID":"SPDXRef-maven-software.amazon.awssdk-sts-2.40.14-75c946","versionInfo":"2.40.14","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 1998-2010 AOL Inc. - Apache, Copyright 2001-2020 The Apache Software Foundation, Copyright 2006-2009 James Murty, Copyright Amazon.com, Inc. or its affiliates","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/software.amazon.awssdk/sts@2.40.14"}]},{"name":"org.bitbucket.b_c:jose4j","SPDXID":"SPDXRef-maven-org.bitbucket.bc-jose4j-0.9.6-75c946","versionInfo":"0.9.6","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2012-2019 Brian Campbell","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bitbucket.b_c/jose4j@0.9.6"}]},{"name":"org.apache.maven.plugins:maven-gpg-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-gpg-plugin-3.2.8-75c946","versionInfo":"3.2.8","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-gpg-plugin@3.2.8"}]},{"name":"commons-codec:commons-codec","SPDXID":"SPDXRef-maven-commons-codec-commons-codec-1.20.0-75c946","versionInfo":"1.20.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/commons-codec/commons-codec@1.20.0"}]},{"name":"org.bouncycastle:bcpkix-jdk18on","SPDXID":"SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-1.83-75c946","versionInfo":"1.83","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.83"}]},{"name":"org.jacoco:jacoco-maven-plugin","SPDXID":"SPDXRef-maven-org.jacoco-jacoco-maven-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.jacoco/jacoco-maven-plugin"}]},{"name":"org.codehaus.gmavenplus:gmavenplus-plugin","SPDXID":"SPDXRef-maven-org.codehaus.gmavenplus-gmavenplus-plugin-4.2.1-75c946","versionInfo":"4.2.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.codehaus.gmavenplus/gmavenplus-plugin@4.2.1"}]},{"name":"ch.qos.logback:logback-classic","SPDXID":"SPDXRef-maven-ch.qos.logback-logback-classic-1.5.22-75c946","versionInfo":"1.5.22","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/ch.qos.logback/logback-classic@1.5.22"}]},{"name":"org.springframework.boot:spring-boot-actuator","SPDXID":"SPDXRef-maven-org.springframework.boot-spring-boot-actuator-4.0.1-75c946","versionInfo":"4.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright (c) 2012-2025 VMware, Inc.","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.springframework.boot/spring-boot-actuator@4.0.1"}]},{"name":"org.apache.maven.plugins:maven-source-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-3.4.0-75c946","versionInfo":"3.4.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-source-plugin@3.4.0"}]},{"name":"commons-io:commons-io","SPDXID":"SPDXRef-maven-commons-io-commons-io-2.21.0-75c946","versionInfo":"2.21.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2002-2025 The Apache Software Foundation","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/commons-io/commons-io@2.21.0"}]},{"name":"org.slf4j:slf4j-api","SPDXID":"SPDXRef-maven-org.slf4j-slf4j-api-2.0.17-75c946","versionInfo":"2.0.17","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","copyrightText":"Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.slf4j/slf4j-api@2.0.17"}]},{"name":"io.prometheus:simpleclient","SPDXID":"SPDXRef-maven-io.prometheus-simpleclient-0.16.0-75c946","versionInfo":"0.16.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.prometheus/simpleclient@0.16.0"}]},{"name":"org.apache.commons:commons-compress","SPDXID":"SPDXRef-maven-org.apache.commons-commons-compress-1.28.0-75c946","versionInfo":"1.28.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","copyrightText":"Copyright 2002-2025 The Apache Software Foundation","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.commons/commons-compress@1.28.0"}]},{"name":"org.junit.jupiter:junit-jupiter","SPDXID":"SPDXRef-maven-org.junit.jupiter-junit-jupiter-5.13.4-75c946","versionInfo":"5.13.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"LicenseRef-scancode-unknown-license-reference AND EPL-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.junit.jupiter/junit-jupiter@5.13.4"}]},{"name":"org.yaml:snakeyaml","SPDXID":"SPDXRef-maven-org.yaml-snakeyaml-2.5-75c946","versionInfo":"2.5","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.yaml/snakeyaml@2.5"}]},{"name":"com.squareup.okhttp3:okhttp","SPDXID":"SPDXRef-maven-com.squareup.okhttp3-okhttp-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.squareup.okhttp3/okhttp"}]},{"name":"com.squareup.okhttp3:logging-interceptor","SPDXID":"SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.squareup.okhttp3/logging-interceptor"}]},{"name":"io.sundr:builder-annotations","SPDXID":"SPDXRef-maven-io.sundr-builder-annotations-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.sundr/builder-annotations"}]},{"name":"io.gsonfire:gson-fire","SPDXID":"SPDXRef-maven-io.gsonfire-gson-fire-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.gsonfire/gson-fire"}]},{"name":"actions/setup-java","SPDXID":"SPDXRef-githubactions-actions-setup-java-5..-75c946","versionInfo":"5.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/actions/setup-java@5.%2A.%2A"}]},{"name":"actions/checkout","SPDXID":"SPDXRef-githubactions-actions-checkout-6..-75c946","versionInfo":"6.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/actions/checkout@6.%2A.%2A"}]},{"name":"github/codeql-action/analyze","SPDXID":"SPDXRef-githubactions-githubcodeql-action-analyze-4..-75c946","versionInfo":"4.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/github/codeql-action/analyze@4.%2A.%2A"}]},{"name":"github/codeql-action/init","SPDXID":"SPDXRef-githubactions-githubcodeql-action-init-4..-75c946","versionInfo":"4.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/github/codeql-action/init@4.%2A.%2A"}]},{"name":"repo-sync/pull-request","SPDXID":"SPDXRef-githubactions-repo-sync-pull-request-2..-75c946","versionInfo":"2.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/repo-sync/pull-request@2.%2A.%2A"}]},{"name":"com.google.code.gson:gson","SPDXID":"SPDXRef-maven-com.google.code.gson-gson-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.code.gson/gson"}]},{"name":"com.google.code.findbugs:jsr305","SPDXID":"SPDXRef-maven-com.google.code.findbugs-jsr305-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.code.findbugs/jsr305"}]},{"name":"jakarta.annotation:jakarta.annotation-api","SPDXID":"SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/jakarta.annotation/jakarta.annotation-api"}]},{"name":"com.diffplug.spotless:spotless-maven-plugin","SPDXID":"SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.diffplug.spotless/spotless-maven-plugin"}]},{"name":"io.swagger:swagger-annotations","SPDXID":"SPDXRef-maven-io.swagger-swagger-annotations-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.swagger/swagger-annotations"}]},{"name":"org.apache.maven.plugins:maven-surefire-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-surefire-plugin"}]},{"name":"org.awaitility:awaitility","SPDXID":"SPDXRef-maven-org.awaitility-awaitility-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.awaitility/awaitility"}]},{"name":"org.junit.jupiter:junit-jupiter","SPDXID":"SPDXRef-maven-org.junit.jupiter-junit-jupiter-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.junit.jupiter/junit-jupiter"}]},{"name":"io.kubernetes:client-java","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-25.0.0-SNAPSHOT-75c946","versionInfo":"25.0.0-SNAPSHOT","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java@25.0.0-SNAPSHOT"}]},{"name":"org.assertj:assertj-core","SPDXID":"SPDXRef-maven-org.assertj-assertj-core-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.assertj/assertj-core"}]},{"name":"org.slf4j:slf4j-api","SPDXID":"SPDXRef-maven-org.slf4j-slf4j-api-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.slf4j/slf4j-api"}]},{"name":"org.apache.maven.plugins:maven-deploy-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-deploy-plugin"}]},{"name":"org.apache.felix:maven-bundle-plugin","SPDXID":"SPDXRef-maven-org.apache.felix-maven-bundle-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.felix/maven-bundle-plugin"}]},{"name":"io.kubernetes:client-java-extended","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-extended-25.0.0-SNAPSHOT-75c946","versionInfo":"25.0.0-SNAPSHOT","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java-extended@25.0.0-SNAPSHOT"}]},{"name":"org.apache.maven.plugins:maven-source-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-source-plugin"}]},{"name":"org.codehaus.mojo:build-helper-maven-plugin","SPDXID":"SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.codehaus.mojo/build-helper-maven-plugin"}]},{"name":"org.apache.maven.plugins:maven-jar-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-jar-plugin"}]},{"name":"ch.qos.logback:logback-classic","SPDXID":"SPDXRef-maven-ch.qos.logback-logback-classic-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/ch.qos.logback/logback-classic"}]},{"name":"com.fasterxml.jackson.core:jackson-databind","SPDXID":"SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.fasterxml.jackson.core/jackson-databind"}]},{"name":"org.apache.maven.plugins:maven-javadoc-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin"}]},{"name":"org.reflections:reflections","SPDXID":"SPDXRef-maven-org.reflections-reflections-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.reflections/reflections"}]},{"name":"actions/upload-artifact","SPDXID":"SPDXRef-githubactions-actions-upload-artifact-6..-75c946","versionInfo":"6.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/actions/upload-artifact@6.%2A.%2A"}]},{"name":"ncipollo/release-action","SPDXID":"SPDXRef-githubactions-ncipollo-release-action-1..-75c946","versionInfo":"1.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/ncipollo/release-action@1.%2A.%2A"}]},{"name":"io.kubernetes:client-java-spring-integration","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-spring-integration-25.0.0-SNAPSHOT-75c946","versionInfo":"25.0.0-SNAPSHOT","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java-spring-integration@25.0.0-SNAPSHOT"}]},{"name":"io.kubernetes:client-java-proto","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-proto-25.0.0-SNAPSHOT-75c946","versionInfo":"25.0.0-SNAPSHOT","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java-proto@25.0.0-SNAPSHOT"}]},{"name":"software.amazon.awssdk:sts","SPDXID":"SPDXRef-maven-software.amazon.awssdk-sts-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/software.amazon.awssdk/sts"}]},{"name":"commons-cli:commons-cli","SPDXID":"SPDXRef-maven-commons-cli-commons-cli-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/commons-cli/commons-cli"}]},{"name":"org.wiremock:wiremock","SPDXID":"SPDXRef-maven-org.wiremock-wiremock-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.wiremock/wiremock"}]},{"name":"io.kubernetes:client-java-cert-manager-models","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-cert-manager-models-10.0.1-75c946","versionInfo":"10.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java-cert-manager-models@10.0.1"}]},{"name":"io.kubernetes:client-java-prometheus-operator-models","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-prometheus-operator-models-10.0.1-75c946","versionInfo":"10.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java-prometheus-operator-models@10.0.1"}]},{"name":"io.kubernetes:client-java-api","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-api-25.0.0-SNAPSHOT-75c946","versionInfo":"25.0.0-SNAPSHOT","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java-api@25.0.0-SNAPSHOT"}]},{"name":"org.apache.commons:commons-collections4","SPDXID":"SPDXRef-maven-org.apache.commons-commons-collections4-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.commons/commons-collections4"}]},{"name":"io.prometheus:simpleclient","SPDXID":"SPDXRef-maven-io.prometheus-simpleclient-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.prometheus/simpleclient"}]},{"name":"com.bucket4j:bucket4j-core","SPDXID":"SPDXRef-maven-com.bucket4j-bucket4j-core-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.bucket4j/bucket4j-core"}]},{"name":"io.kubernetes:client-java-api-fluent","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-api-fluent-25.0.0-SNAPSHOT-75c946","versionInfo":"25.0.0-SNAPSHOT","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java-api-fluent@25.0.0-SNAPSHOT"}]},{"name":"org.mockito:mockito-junit-jupiter","SPDXID":"SPDXRef-maven-org.mockito-mockito-junit-jupiter-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.mockito/mockito-junit-jupiter"}]},{"name":"org.apache.maven.plugins:maven-compiler-plugin","SPDXID":"SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.maven.plugins/maven-compiler-plugin"}]},{"name":"org.apache.commons:commons-lang3","SPDXID":"SPDXRef-maven-org.apache.commons-commons-lang3-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.commons/commons-lang3"}]},{"name":"com.github.ben-manes.caffeine:caffeine","SPDXID":"SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.github.ben-manes.caffeine/caffeine"}]},{"name":"com.google.protobuf:protobuf-java","SPDXID":"SPDXRef-maven-com.google.protobuf-protobuf-java-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.protobuf/protobuf-java"}]},{"name":"org.yaml:snakeyaml","SPDXID":"SPDXRef-maven-org.yaml-snakeyaml-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.yaml/snakeyaml"}]},{"name":"org.bitbucket.b_c:jose4j","SPDXID":"SPDXRef-maven-org.bitbucket.bc-jose4j-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bitbucket.b_c/jose4j"}]},{"name":"commons-io:commons-io","SPDXID":"SPDXRef-maven-commons-io-commons-io-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/commons-io/commons-io"}]},{"name":"commons-codec:commons-codec","SPDXID":"SPDXRef-maven-commons-codec-commons-codec-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/commons-codec/commons-codec"}]},{"name":"com.google.auth:google-auth-library-oauth2-http","SPDXID":"SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/com.google.auth/google-auth-library-oauth2-http"}]},{"name":"org.bouncycastle:bcpkix-jdk18on","SPDXID":"SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.bouncycastle/bcpkix-jdk18on"}]},{"name":"org.apache.commons:commons-compress","SPDXID":"SPDXRef-maven-org.apache.commons-commons-compress-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/org.apache.commons/commons-compress"}]},{"name":"io.prometheus:simpleclient_httpserver","SPDXID":"SPDXRef-maven-io.prometheus-simpleclienthttpserver-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.prometheus/simpleclient_httpserver"}]},{"name":"uk.org.webcompere:system-stubs-jupiter","SPDXID":"SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/uk.org.webcompere/system-stubs-jupiter"}]},{"name":"helm/kind-action","SPDXID":"SPDXRef-githubactions-helm-kind-action-1.13.0-75c946","versionInfo":"1.13.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/helm/kind-action@1.13.0"}]},{"name":"graalvm/setup-graalvm","SPDXID":"SPDXRef-githubactions-graalvm-setup-graalvm-1..-75c946","versionInfo":"1.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/graalvm/setup-graalvm@1.%2A.%2A"}]},{"name":"elgohr/Publish-Docker-Github-Action","SPDXID":"SPDXRef-githubactions-elgohr-Publish-Docker-Github-Action-5..-75c946","versionInfo":"5.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/elgohr/Publish-Docker-Github-Action@5.%2A.%2A"}]},{"name":"actions/cache","SPDXID":"SPDXRef-githubactions-actions-cache-5..-75c946","versionInfo":"5.*.*","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:githubactions/actions/cache@5.%2A.%2A"}]},{"name":"io.kubernetes:client-java","SPDXID":"SPDXRef-maven-io.kubernetes-client-java-75c946","downloadLocation":"NOASSERTION","filesAnalyzed":false,"externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:maven/io.kubernetes/client-java"}]},{"name":"com.github.sbomvex/java","SPDXID":"SPDXRef-github-sbomvex-java-master-80cc59","versionInfo":"master","downloadLocation":"git+https://github.com/sbomvex/java","filesAnalyzed":false,"licenseDeclared":"Apache-2.0","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:github/sbomvex/java@master"}]}],"relationships":[{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.wiremock-wiremock-3.13.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-actions-setup-java-5..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-ch.qos.logback-logback-classic-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.awaitility-awaitility-4.3.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.yaml-snakeyaml-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2.9.3-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-5.3.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.assertj-assertj-core-3.27.6-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.14.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.codehaus.gmavenplus-gmavenplus-plugin-4.2.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-software.amazon.awssdk-sts-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.sundr-builder-annotations-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.swagger-swagger-annotations-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.bucket4j-bucket4j-core-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.5.4-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-commons-cli-commons-cli-1.11.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.junit.jupiter-junit-jupiter-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-commons-io-commons-io-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-ncipollo-release-action-1..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.felix-maven-bundle-plugin-6.0.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.prometheus-simpleclienthttpserver-0.16.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.gsonfire-gson-fire-1.9.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-gpg-plugin-3.2.8-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.code.findbugs-jsr305-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.awaitility-awaitility-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-api-25.0.0-SNAPSHOT-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.commons-commons-lang3-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.code.gson-gson-2.13.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-2.1.8-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-commons-io-commons-io-2.21.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.prometheus-simpleclient-0.16.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.junit.jupiter-junit-jupiter-5.13.4-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-commons-cli-commons-cli-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework.boot-spring-boot-test-4.0.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-ch.qos.logback-logback-classic-1.5.22-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.14-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-3.12.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.bucket4j-bucket4j-core-8.10.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-githubcodeql-action-init-4..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.reflections-reflections-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.commons-commons-collections4-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.prometheus-simpleclient-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.yaml-snakeyaml-2.5-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-graalvm-setup-graalvm-1..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework-spring-test-6.2.12-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-3.1.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-4.0.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.slf4j-slf4j-api-2.0.17-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.squareup.okhttp3-okhttp-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework.boot-spring-boot-actuator-4.0.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.protobuf-protobuf-java-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework-spring-core-6.2.12-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-1.83-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.commons-commons-compress-1.28.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-proto-25.0.0-SNAPSHOT-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-software.amazon.awssdk-sts-2.40.14-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.code.gson-gson-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-25.0.0-SNAPSHOT-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.wiremock-wiremock-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-cert-manager-models-10.0.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-1.17.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.bitbucket.bc-jose4j-0.9.6-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-commons-codec-commons-codec-1.20.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-3.4.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.commons-commons-compress-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-1.41.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.mockito-mockito-junit-jupiter-5.21.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.gsonfire-gson-fire-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.assertj-assertj-core-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-3.6.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.google.protobuf-protobuf-java-4.33.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.squareup.okhttp3-okhttp-5.3.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.5.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.swagger-swagger-annotations-1.6.16-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-assembly-plugin-3.8.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-2.20.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-githubcodeql-action-analyze-4..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-spring-integration-25.0.0-SNAPSHOT-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-prometheus-operator-models-10.0.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-commons-codec-commons-codec-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.felix-maven-bundle-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.prometheus-simpleclienthttpserver-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.flipkart.zjsonpatch-zjsonpatch-0.4.16-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.jacoco-jacoco-maven-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-actions-checkout-6..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.bitbucket.bc-jose4j-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-elgohr-Publish-Docker-Github-Action-5..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-actions-cache-5..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework.boot-spring-boot-test-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-3.6.2-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework.boot-spring-boot-4.0.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.slf4j-slf4j-api-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-extended-25.0.0-SNAPSHOT-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-actions-upload-artifact-6..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework.boot-spring-boot-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-3.3.1-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-repo-sync-pull-request-2..-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.mockito-mockito-junit-jupiter-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-githubactions-helm-kind-action-1.13.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-3.0.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-2.2.0-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework-spring-core-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-org.springframework-spring-context-6.2.12-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-github-sbomvex-java-master-80cc59","relatedSpdxElement":"SPDXRef-maven-io.kubernetes-client-java-api-fluent-25.0.0-SNAPSHOT-75c946","relationshipType":"DEPENDS_ON"},{"spdxElementId":"SPDXRef-DOCUMENT","relatedSpdxElement":"SPDXRef-github-sbomvex-java-master-80cc59","relationshipType":"DESCRIBES"}]}
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.sbomvex/java",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/24d7b5ed-42ef-4e67-8c96-115b26ff5de4",
+  "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+  "creationInfo": {
+    "creators": [
+      "Tool: protobom-v0.0.0-20251216165153-1f3f3060931e+dirty",
+      "Tool: GitHub.com-Dependency-Graph"
+    ],
+    "created": "2026-01-04T20:01:51Z"
+  },
+  "packages": [
+    {
+      "name": "org.springframework:spring-core",
+      "SPDXID": "SPDXRef-maven-org.springframework-spring-core-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot",
+      "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-test",
+      "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-test-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-test"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-autoconfigure",
+      "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-enforcer-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-3.6.2-75c946",
+      "versionInfo": "3.6.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-enforcer-plugin@3.6.2"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.findbugs:jsr305",
+      "SPDXID": "SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2-75c946",
+      "versionInfo": "3.0.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2"
+        }
+      ]
+    },
+    {
+      "name": "org.codehaus.mojo:build-helper-maven-plugin",
+      "SPDXID": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-3.6.1-75c946",
+      "versionInfo": "3.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.mojo/build-helper-maven-plugin@3.6.1"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-lang3",
+      "SPDXID": "SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-75c946",
+      "versionInfo": "3.20.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2017 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.20.0"
+        }
+      ]
+    },
+    {
+      "name": "uk.org.webcompere:system-stubs-jupiter",
+      "SPDXID": "SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-2.1.8-75c946",
+      "versionInfo": "2.1.8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/uk.org.webcompere/system-stubs-jupiter@2.1.8"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.felix:maven-bundle-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-6.0.0-75c946",
+      "versionInfo": "6.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.felix/maven-bundle-plugin@6.0.0"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-assembly-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-assembly-plugin-3.8.0-75c946",
+      "versionInfo": "3.8.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-assembly-plugin@3.8.0"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:logging-interceptor",
+      "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-5.3.2-75c946",
+      "versionInfo": "5.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/logging-interceptor@5.3.2"
+        }
+      ]
+    },
+    {
+      "name": "com.google.auth:google-auth-library-oauth2-http",
+      "SPDXID": "SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-1.41.0-75c946",
+      "versionInfo": "1.41.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.auth/google-auth-library-oauth2-http@1.41.0"
+        }
+      ]
+    },
+    {
+      "name": "org.mockito:mockito-junit-jupiter",
+      "SPDXID": "SPDXRef-maven-org.mockito-mockito-junit-jupiter-5.21.0-75c946",
+      "versionInfo": "5.21.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-junit-jupiter@5.21.0"
+        }
+      ]
+    },
+    {
+      "name": "org.awaitility:awaitility",
+      "SPDXID": "SPDXRef-maven-org.awaitility-awaitility-4.3.0-75c946",
+      "versionInfo": "4.3.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2015 the original author or authors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.awaitility/awaitility@4.3.0"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-test",
+      "SPDXID": "SPDXRef-maven-org.springframework-spring-test-6.2.12-75c946",
+      "versionInfo": "6.2.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND LicenseRef-scancode-other-copyleft",
+      "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <https://www.ow2.org/>, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2025 Pivotal, Inc., Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-test@6.2.12"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-collections4",
+      "SPDXID": "SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-75c946",
+      "versionInfo": "4.5.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2025 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-collections4@4.5.0"
+        }
+      ]
+    },
+    {
+      "name": "org.wiremock:wiremock",
+      "SPDXID": "SPDXRef-maven-org.wiremock-wiremock-3.13.2-75c946",
+      "versionInfo": "3.13.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.wiremock/wiremock@3.13.2"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:okhttp",
+      "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-okhttp-5.3.2-75c946",
+      "versionInfo": "5.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@5.3.2"
+        }
+      ]
+    },
+    {
+      "name": "org.jacoco:jacoco-maven-plugin",
+      "SPDXID": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.14-75c946",
+      "versionInfo": "0.8.14",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jacoco/jacoco-maven-plugin@0.8.14"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-jar-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.5.0-75c946",
+      "versionInfo": "3.5.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-jar-plugin@3.5.0"
+        }
+      ]
+    },
+    {
+      "name": "com.github.ben-manes.caffeine:caffeine",
+      "SPDXID": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2.9.3-75c946",
+      "versionInfo": "2.9.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.ben-manes.caffeine/caffeine@2.9.3"
+        }
+      ]
+    },
+    {
+      "name": "com.diffplug.spotless:spotless-maven-plugin",
+      "SPDXID": "SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-1.17.0-75c946",
+      "versionInfo": "1.17.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.diffplug.spotless/spotless-maven-plugin@1.17.0"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-surefire-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.5.4-75c946",
+      "versionInfo": "3.5.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@3.5.4"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-enforcer-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-2.2.0-75c946",
+      "versionInfo": "2.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-enforcer-plugin@2.2.0"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-javadoc-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-3.12.0-75c946",
+      "versionInfo": "3.12.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-public-domain AND MIT",
+      "copyrightText": "Copyright 2004-2025 The Apache Software Foundation, Copyright 2005, a http://www.mycompany.com MyCompany, Inc. a Note:If the project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin@3.12.0"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.gson:gson",
+      "SPDXID": "SPDXRef-maven-com.google.code.gson-gson-2.13.2-75c946",
+      "versionInfo": "2.13.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2008 Google LLC",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.13.2"
+        }
+      ]
+    },
+    {
+      "name": "io.swagger:swagger-annotations",
+      "SPDXID": "SPDXRef-maven-io.swagger-swagger-annotations-1.6.16-75c946",
+      "versionInfo": "1.6.16",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.swagger/swagger-annotations@1.6.16"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-2.20.1-75c946",
+      "versionInfo": "2.20.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1"
+        }
+      ]
+    },
+    {
+      "name": "org.assertj:assertj-core",
+      "SPDXID": "SPDXRef-maven-org.assertj-assertj-core-3.27.6-75c946",
+      "versionInfo": "3.27.6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.assertj/assertj-core@3.27.6"
+        }
+      ]
+    },
+    {
+      "name": "com.diffplug.spotless:spotless-maven-plugin",
+      "SPDXID": "SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-3.1.0-75c946",
+      "versionInfo": "3.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.diffplug.spotless/spotless-maven-plugin@3.1.0"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-release-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-release-plugin"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient_httpserver",
+      "SPDXID": "SPDXRef-maven-io.prometheus-simpleclienthttpserver-0.16.0-75c946",
+      "versionInfo": "0.16.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient_httpserver@0.16.0"
+        }
+      ]
+    },
+    {
+      "name": "com.bucket4j:bucket4j-core",
+      "SPDXID": "SPDXRef-maven-com.bucket4j-bucket4j-core-8.10.1-75c946",
+      "versionInfo": "8.10.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.bucket4j/bucket4j-core@8.10.1"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-compiler-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.14.1-75c946",
+      "versionInfo": "3.14.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.14.1"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-context",
+      "SPDXID": "SPDXRef-maven-org.springframework-spring-context-6.2.12-75c946",
+      "versionInfo": "6.2.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND LicenseRef-scancode-other-copyleft",
+      "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <https://www.ow2.org/>, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2025 Pivotal, Inc., Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@6.2.12"
+        }
+      ]
+    },
+    {
+      "name": "io.gsonfire:gson-fire",
+      "SPDXID": "SPDXRef-maven-io.gsonfire-gson-fire-1.9.0-75c946",
+      "versionInfo": "1.9.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.gsonfire/gson-fire@1.9.0"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.annotation:jakarta.annotation-api",
+      "SPDXID": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-3.0.0-75c946",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2012, 2024 Oracle and/or its affiliates, Copyright (c) 2012, 2024 Oracle and/or its affiliates. All rights reserved., Copyright (c) 2019, 2024 Eclipse Foundation, copyrighted by the Free Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@3.0.0"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework:spring-core",
+      "SPDXID": "SPDXRef-maven-org.springframework-spring-core-6.2.12-75c946",
+      "versionInfo": "6.2.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND LicenseRef-scancode-other-copyleft",
+      "copyrightText": "Copyright (c) 1999-2009, OW2 Consortium <https://www.ow2.org/>, Copyright (c) 2000-2011 INRIA, France Telecom, Copyright (c) 2002-2025 Pivotal, Inc., Copyright 2002-2020 the original author or authors, Copyright 2006-2019 Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@6.2.12"
+        }
+      ]
+    },
+    {
+      "name": "commons-cli:commons-cli",
+      "SPDXID": "SPDXRef-maven-commons-cli-commons-cli-1.11.0-75c946",
+      "versionInfo": "1.11.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2025 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-cli/commons-cli@1.11.0"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-autoconfigure",
+      "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-4.0.1-75c946",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-test",
+      "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-test-4.0.1-75c946",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2012-2025 VMware, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-test@4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot",
+      "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-4.0.1-75c946",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot@4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "com.flipkart.zjsonpatch:zjsonpatch",
+      "SPDXID": "SPDXRef-maven-com.flipkart.zjsonpatch-zjsonpatch-0.4.16-75c946",
+      "versionInfo": "0.4.16",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.flipkart.zjsonpatch/zjsonpatch@0.4.16"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-release-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-3.3.1-75c946",
+      "versionInfo": "3.3.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-release-plugin@3.3.1"
+        }
+      ]
+    },
+    {
+      "name": "com.google.protobuf:protobuf-java",
+      "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-4.33.2-75c946",
+      "versionInfo": "4.33.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java@4.33.2"
+        }
+      ]
+    },
+    {
+      "name": "software.amazon.awssdk:sts",
+      "SPDXID": "SPDXRef-maven-software.amazon.awssdk-sts-2.40.14-75c946",
+      "versionInfo": "2.40.14",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 1998-2010 AOL Inc. - Apache, Copyright 2001-2020 The Apache Software Foundation, Copyright 2006-2009 James Murty, Copyright Amazon.com, Inc. or its affiliates",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/software.amazon.awssdk/sts@2.40.14"
+        }
+      ]
+    },
+    {
+      "name": "org.bitbucket.b_c:jose4j",
+      "SPDXID": "SPDXRef-maven-org.bitbucket.bc-jose4j-0.9.6-75c946",
+      "versionInfo": "0.9.6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2012-2019 Brian Campbell",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bitbucket.b_c/jose4j@0.9.6"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-gpg-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-gpg-plugin-3.2.8-75c946",
+      "versionInfo": "3.2.8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-gpg-plugin@3.2.8"
+        }
+      ]
+    },
+    {
+      "name": "commons-codec:commons-codec",
+      "SPDXID": "SPDXRef-maven-commons-codec-commons-codec-1.20.0-75c946",
+      "versionInfo": "1.20.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.20.0"
+        }
+      ]
+    },
+    {
+      "name": "org.bouncycastle:bcpkix-jdk18on",
+      "SPDXID": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-1.83-75c946",
+      "versionInfo": "1.83",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.83"
+        }
+      ]
+    },
+    {
+      "name": "org.jacoco:jacoco-maven-plugin",
+      "SPDXID": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jacoco/jacoco-maven-plugin"
+        }
+      ]
+    },
+    {
+      "name": "org.codehaus.gmavenplus:gmavenplus-plugin",
+      "SPDXID": "SPDXRef-maven-org.codehaus.gmavenplus-gmavenplus-plugin-4.2.1-75c946",
+      "versionInfo": "4.2.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.gmavenplus/gmavenplus-plugin@4.2.1"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-classic",
+      "SPDXID": "SPDXRef-maven-ch.qos.logback-logback-classic-1.5.22-75c946",
+      "versionInfo": "1.5.22",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.5.22"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot:spring-boot-actuator",
+      "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-actuator-4.0.1-75c946",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2012-2025 VMware, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-actuator@4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-source-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-3.4.0-75c946",
+      "versionInfo": "3.4.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-source-plugin@3.4.0"
+        }
+      ]
+    },
+    {
+      "name": "commons-io:commons-io",
+      "SPDXID": "SPDXRef-maven-commons-io-commons-io-2.21.0-75c946",
+      "versionInfo": "2.21.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2025 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.21.0"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.17-75c946",
+      "versionInfo": "2.0.17",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.17"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient",
+      "SPDXID": "SPDXRef-maven-io.prometheus-simpleclient-0.16.0-75c946",
+      "versionInfo": "0.16.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient@0.16.0"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-compress",
+      "SPDXID": "SPDXRef-maven-org.apache.commons-commons-compress-1.28.0-75c946",
+      "versionInfo": "1.28.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2025 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-compress@1.28.0"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.jupiter:junit-jupiter",
+      "SPDXID": "SPDXRef-maven-org.junit.jupiter-junit-jupiter-5.13.4-75c946",
+      "versionInfo": "5.13.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LicenseRef-scancode-unknown-license-reference AND EPL-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter@5.13.4"
+        }
+      ]
+    },
+    {
+      "name": "org.yaml:snakeyaml",
+      "SPDXID": "SPDXRef-maven-org.yaml-snakeyaml-2.5-75c946",
+      "versionInfo": "2.5",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.5"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:okhttp",
+      "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-okhttp-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3:logging-interceptor",
+      "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/logging-interceptor"
+        }
+      ]
+    },
+    {
+      "name": "io.sundr:builder-annotations",
+      "SPDXID": "SPDXRef-maven-io.sundr-builder-annotations-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.sundr/builder-annotations"
+        }
+      ]
+    },
+    {
+      "name": "io.gsonfire:gson-fire",
+      "SPDXID": "SPDXRef-maven-io.gsonfire-gson-fire-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.gsonfire/gson-fire"
+        }
+      ]
+    },
+    {
+      "name": "actions/setup-java",
+      "SPDXID": "SPDXRef-githubactions-actions-setup-java-5..-75c946",
+      "versionInfo": "5.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/actions/setup-java@5.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "actions/checkout",
+      "SPDXID": "SPDXRef-githubactions-actions-checkout-6..-75c946",
+      "versionInfo": "6.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/actions/checkout@6.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "github/codeql-action/analyze",
+      "SPDXID": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-75c946",
+      "versionInfo": "4.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/github/codeql-action/analyze@4.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "github/codeql-action/init",
+      "SPDXID": "SPDXRef-githubactions-githubcodeql-action-init-4..-75c946",
+      "versionInfo": "4.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/github/codeql-action/init@4.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "repo-sync/pull-request",
+      "SPDXID": "SPDXRef-githubactions-repo-sync-pull-request-2..-75c946",
+      "versionInfo": "2.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/repo-sync/pull-request@2.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.gson:gson",
+      "SPDXID": "SPDXRef-maven-com.google.code.gson-gson-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.findbugs:jsr305",
+      "SPDXID": "SPDXRef-maven-com.google.code.findbugs-jsr305-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.annotation:jakarta.annotation-api",
+      "SPDXID": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api"
+        }
+      ]
+    },
+    {
+      "name": "com.diffplug.spotless:spotless-maven-plugin",
+      "SPDXID": "SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.diffplug.spotless/spotless-maven-plugin"
+        }
+      ]
+    },
+    {
+      "name": "io.swagger:swagger-annotations",
+      "SPDXID": "SPDXRef-maven-io.swagger-swagger-annotations-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.swagger/swagger-annotations"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-surefire-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin"
+        }
+      ]
+    },
+    {
+      "name": "org.awaitility:awaitility",
+      "SPDXID": "SPDXRef-maven-org.awaitility-awaitility-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.awaitility/awaitility"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.jupiter:junit-jupiter",
+      "SPDXID": "SPDXRef-maven-org.junit.jupiter-junit-jupiter-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-25.0.0-SNAPSHOT-75c946",
+      "versionInfo": "25.0.0-SNAPSHOT",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java@25.0.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "org.assertj:assertj-core",
+      "SPDXID": "SPDXRef-maven-org.assertj-assertj-core-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.assertj/assertj-core"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-deploy-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-deploy-plugin"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.felix:maven-bundle-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.felix/maven-bundle-plugin"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java-extended",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-extended-25.0.0-SNAPSHOT-75c946",
+      "versionInfo": "25.0.0-SNAPSHOT",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java-extended@25.0.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-source-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-source-plugin"
+        }
+      ]
+    },
+    {
+      "name": "org.codehaus.mojo:build-helper-maven-plugin",
+      "SPDXID": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.mojo/build-helper-maven-plugin"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-jar-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-jar-plugin"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-classic",
+      "SPDXID": "SPDXRef-maven-ch.qos.logback-logback-classic-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-javadoc-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin"
+        }
+      ]
+    },
+    {
+      "name": "org.reflections:reflections",
+      "SPDXID": "SPDXRef-maven-org.reflections-reflections-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.reflections/reflections"
+        }
+      ]
+    },
+    {
+      "name": "actions/upload-artifact",
+      "SPDXID": "SPDXRef-githubactions-actions-upload-artifact-6..-75c946",
+      "versionInfo": "6.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/actions/upload-artifact@6.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "ncipollo/release-action",
+      "SPDXID": "SPDXRef-githubactions-ncipollo-release-action-1..-75c946",
+      "versionInfo": "1.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/ncipollo/release-action@1.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java-spring-integration",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-spring-integration-25.0.0-SNAPSHOT-75c946",
+      "versionInfo": "25.0.0-SNAPSHOT",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java-spring-integration@25.0.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java-proto",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-proto-25.0.0-SNAPSHOT-75c946",
+      "versionInfo": "25.0.0-SNAPSHOT",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java-proto@25.0.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "software.amazon.awssdk:sts",
+      "SPDXID": "SPDXRef-maven-software.amazon.awssdk-sts-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/software.amazon.awssdk/sts"
+        }
+      ]
+    },
+    {
+      "name": "commons-cli:commons-cli",
+      "SPDXID": "SPDXRef-maven-commons-cli-commons-cli-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-cli/commons-cli"
+        }
+      ]
+    },
+    {
+      "name": "org.wiremock:wiremock",
+      "SPDXID": "SPDXRef-maven-org.wiremock-wiremock-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.wiremock/wiremock"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java-cert-manager-models",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-cert-manager-models-10.0.1-75c946",
+      "versionInfo": "10.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java-cert-manager-models@10.0.1"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java-prometheus-operator-models",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-prometheus-operator-models-10.0.1-75c946",
+      "versionInfo": "10.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java-prometheus-operator-models@10.0.1"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java-api",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-api-25.0.0-SNAPSHOT-75c946",
+      "versionInfo": "25.0.0-SNAPSHOT",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java-api@25.0.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-collections4",
+      "SPDXID": "SPDXRef-maven-org.apache.commons-commons-collections4-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-collections4"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient",
+      "SPDXID": "SPDXRef-maven-io.prometheus-simpleclient-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient"
+        }
+      ]
+    },
+    {
+      "name": "com.bucket4j:bucket4j-core",
+      "SPDXID": "SPDXRef-maven-com.bucket4j-bucket4j-core-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.bucket4j/bucket4j-core"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java-api-fluent",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-api-fluent-25.0.0-SNAPSHOT-75c946",
+      "versionInfo": "25.0.0-SNAPSHOT",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java-api-fluent@25.0.0-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "org.mockito:mockito-junit-jupiter",
+      "SPDXID": "SPDXRef-maven-org.mockito-mockito-junit-jupiter-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-junit-jupiter"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven.plugins:maven-compiler-plugin",
+      "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-lang3",
+      "SPDXID": "SPDXRef-maven-org.apache.commons-commons-lang3-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3"
+        }
+      ]
+    },
+    {
+      "name": "com.github.ben-manes.caffeine:caffeine",
+      "SPDXID": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.ben-manes.caffeine/caffeine"
+        }
+      ]
+    },
+    {
+      "name": "com.google.protobuf:protobuf-java",
+      "SPDXID": "SPDXRef-maven-com.google.protobuf-protobuf-java-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java"
+        }
+      ]
+    },
+    {
+      "name": "org.yaml:snakeyaml",
+      "SPDXID": "SPDXRef-maven-org.yaml-snakeyaml-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml"
+        }
+      ]
+    },
+    {
+      "name": "org.bitbucket.b_c:jose4j",
+      "SPDXID": "SPDXRef-maven-org.bitbucket.bc-jose4j-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bitbucket.b_c/jose4j"
+        }
+      ]
+    },
+    {
+      "name": "commons-io:commons-io",
+      "SPDXID": "SPDXRef-maven-commons-io-commons-io-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io"
+        }
+      ]
+    },
+    {
+      "name": "commons-codec:commons-codec",
+      "SPDXID": "SPDXRef-maven-commons-codec-commons-codec-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec"
+        }
+      ]
+    },
+    {
+      "name": "com.google.auth:google-auth-library-oauth2-http",
+      "SPDXID": "SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.auth/google-auth-library-oauth2-http"
+        }
+      ]
+    },
+    {
+      "name": "org.bouncycastle:bcpkix-jdk18on",
+      "SPDXID": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk18on"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-compress",
+      "SPDXID": "SPDXRef-maven-org.apache.commons-commons-compress-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-compress"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient_httpserver",
+      "SPDXID": "SPDXRef-maven-io.prometheus-simpleclienthttpserver-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient_httpserver"
+        }
+      ]
+    },
+    {
+      "name": "uk.org.webcompere:system-stubs-jupiter",
+      "SPDXID": "SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/uk.org.webcompere/system-stubs-jupiter"
+        }
+      ]
+    },
+    {
+      "name": "helm/kind-action",
+      "SPDXID": "SPDXRef-githubactions-helm-kind-action-1.13.0-75c946",
+      "versionInfo": "1.13.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/helm/kind-action@1.13.0"
+        }
+      ]
+    },
+    {
+      "name": "graalvm/setup-graalvm",
+      "SPDXID": "SPDXRef-githubactions-graalvm-setup-graalvm-1..-75c946",
+      "versionInfo": "1.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/graalvm/setup-graalvm@1.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "elgohr/Publish-Docker-Github-Action",
+      "SPDXID": "SPDXRef-githubactions-elgohr-Publish-Docker-Github-Action-5..-75c946",
+      "versionInfo": "5.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/elgohr/Publish-Docker-Github-Action@5.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "actions/cache",
+      "SPDXID": "SPDXRef-githubactions-actions-cache-5..-75c946",
+      "versionInfo": "5.*.*",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:githubactions/actions/cache@5.%2A.%2A"
+        }
+      ]
+    },
+    {
+      "name": "io.kubernetes:client-java",
+      "SPDXID": "SPDXRef-maven-io.kubernetes-client-java-75c946",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.kubernetes/client-java"
+        }
+      ]
+    },
+    {
+      "name": "com.github.sbomvex/java",
+      "SPDXID": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "versionInfo": "master",
+      "downloadLocation": "git+https://github.com/sbomvex/java",
+      "filesAnalyzed": false,
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/sbomvex/java@master"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.wiremock-wiremock-3.13.2-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-actions-setup-java-5..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-ch.qos.logback-logback-classic-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.awaitility-awaitility-4.3.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.yaml-snakeyaml-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-2.9.3-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-5.3.2-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.assertj-assertj-core-3.27.6-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.14.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.codehaus.gmavenplus-gmavenplus-plugin-4.2.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-software.amazon.awssdk-sts-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.sundr-builder-annotations-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.swagger-swagger-annotations-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.bucket4j-bucket4j-core-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.5.4-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-commons-cli-commons-cli-1.11.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.junit.jupiter-junit-jupiter-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-commons-io-commons-io-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-ncipollo-release-action-1..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-6.0.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.prometheus-simpleclienthttpserver-0.16.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.gsonfire-gson-fire-1.9.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-gpg-plugin-3.2.8-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.code.findbugs-jsr305-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.awaitility-awaitility-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-api-25.0.0-SNAPSHOT-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-lang3-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.code.gson-gson-2.13.2-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-uk.org.webcompere-system-stubs-jupiter-2.1.8-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-commons-io-commons-io-2.21.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.prometheus-simpleclient-0.16.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.junit.jupiter-junit-jupiter-5.13.4-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-deploy-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-commons-cli-commons-cli-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-test-4.0.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-ch.qos.logback-logback-classic-1.5.22-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-0.8.14-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-3.12.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.bucket4j-bucket4j-core-8.10.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-logging-interceptor-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-init-4..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.reflections-reflections-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-collections4-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.prometheus-simpleclient-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.yaml-snakeyaml-2.5-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-graalvm-setup-graalvm-1..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-test-6.2.12-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-3.1.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-autoconfigure-4.0.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-2.0.17-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-okhttp-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-actuator-4.0.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-core-6.2.12-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk18on-1.83-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-compress-1.28.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-proto-25.0.0-SNAPSHOT-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.code.findbugs-jsr305-3.0.2-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-lang3-3.20.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-software.amazon.awssdk-sts-2.40.14-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.code.gson-gson-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-25.0.0-SNAPSHOT-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.wiremock-wiremock-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-cert-manager-models-10.0.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.diffplug.spotless-spotless-maven-plugin-1.17.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.bitbucket.bc-jose4j-0.9.6-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-commons-codec-commons-codec-1.20.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-3.4.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-compress-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.auth-google-auth-library-oauth2-http-1.41.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.mockito-mockito-junit-jupiter-5.21.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.gsonfire-gson-fire-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.assertj-assertj-core-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.codehaus.mojo-build-helper-maven-plugin-3.6.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.google.protobuf-protobuf-java-4.33.2-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-okhttp-5.3.2-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.5.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.swagger-swagger-annotations-1.6.16-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-assembly-plugin-3.8.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.fasterxml.jackson.core-jackson-databind-2.20.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-githubcodeql-action-analyze-4..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-spring-integration-25.0.0-SNAPSHOT-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-prometheus-operator-models-10.0.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-commons-codec-commons-codec-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.felix-maven-bundle-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.prometheus-simpleclienthttpserver-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.flipkart.zjsonpatch-zjsonpatch-0.4.16-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.jacoco-jacoco-maven-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-6..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-com.github.ben-manes.caffeine-caffeine-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.bitbucket.bc-jose4j-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-elgohr-Publish-Docker-Github-Action-5..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-actions-cache-5..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-test-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-3.6.2-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-4.0.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-extended-25.0.0-SNAPSHOT-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-actions-upload-artifact-6..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-collections4-4.5.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-3.3.1-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-repo-sync-pull-request-2..-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.mockito-mockito-junit-jupiter-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-githubactions-helm-kind-action-1.13.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-jakarta.annotation-jakarta.annotation-api-3.0.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-enforcer-plugin-2.2.0-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-core-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-org.springframework-spring-context-6.2.12-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relatedSpdxElement": "SPDXRef-maven-io.kubernetes-client-java-api-fluent-25.0.0-SNAPSHOT-75c946",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-github-sbomvex-java-master-80cc59",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}
